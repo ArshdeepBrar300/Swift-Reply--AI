@@ -10,7 +10,7 @@ This project is a Chrome extension that integrates with Gmail, allowing users to
 
 ## Chrome Extension Button
 ![Gmail AI Reply Button](./screenshots/extension-button.png)
-[](./screenshots/extension-generating.png)
+![Gmail Ai reply button generating reply](./screenshots/extension-generating.png)
 
 ## Extension Output
 ![Gmail AI Reply Output](./screenshots/extension-output.png)
