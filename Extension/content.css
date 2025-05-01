@@ -1,0 +1,22 @@
+.ai-button {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: #1b69d4  !important; /* Gmail blue */
+    color: white !important;
+    padding: 8px 16px !important; /* Adjust padding as needed */
+    border: none !important;
+    border-radius: 20px !important; /* Rounded corners */
+    font-size: 14px !important; /* Adjust font size as needed */
+    font-weight: 500 !important; /* Medium font weight */
+    cursor: pointer !important;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15) !important; /* Subtle shadow */
+  }
+  
+  .ai-button:hover {
+    background-color: #1967d2 !important; /* Slightly darker blue on hover */
+  }
+  
+  .ai-button:active {
+    background-color: #185abc !important; /* Even darker blue on click */
+  }

@@ -1,0 +1,4 @@
+com/email/SwiftReply_AI/Entity/EmailRequest.class
+com/email/SwiftReply_AI/controller/EmailServiceController.class
+com/email/SwiftReply_AI/Services/EmailService.class
+com/email/SwiftReply_AI/SwiftReplyAiApplication.class

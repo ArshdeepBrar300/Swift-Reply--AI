@@ -1,0 +1,32 @@
+{
+    "name": "Swift Reply - AI",
+    "description": "Helps you to write mails based on desired tone",
+    "version": "1.0",
+    "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+    "manifest_version": 3,
+    "permissions":["activeTab","storage"],
+    "host_permissions": ["http://localhost:8080/*",
+                        "*://mail.google.com/*"] ,
+    "content_scripts": [
+       {
+          "js": ["content.js"],
+          "matches":["*://mail.google.com/*"],
+          "css": ["content.css"],
+          "run_at": "document_end"
+       }
+    ],
+    "web_accessible_resources": [
+    {
+      "resources": [ "icons/*" ],
+      "matches": ["*://mail.google.com/*" ]
+    }
+  ],
+    "action": {
+      "default_title": "Swift Reply - AI"
+
+    }
+  }
