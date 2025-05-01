@@ -4,13 +4,15 @@
 This project is a Chrome extension that integrates with Gmail, allowing users to generate AI-powered replies to emails. The extension adds an "AI Reply" button in the Gmail reply box. When clicked, the email content is sent to a backend server built with Spring Boot, which forwards it to an AI model (like Gemini or others). The AI model processes the email and generates a response that is automatically inserted back into the reply box.
 
 
-
+## Chrome Extension
 ![Chrome Extension](./screenshots/extension.png)
 
 
-
+## Chrome Extension Button
 ![Gmail AI Reply Button](./screenshots/extension-button.png)
 [](./screenshots/extension-generating.png)
+
+## Extension Output
 ![Gmail AI Reply Output](./screenshots/extension-output.png)
 
 
